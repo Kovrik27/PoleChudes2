@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication1", "WebApplication1.csproj", "{23F0FA55-7422-416C-ABF4-807F2858DB06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoleChudesWPF", "PoleChudesWPF\PoleChudesWPF.csproj", "{A6F6566F-5DE5-44D1-90B9-030A267F86D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoleChudesWPF", "..\PoleChudesWPF\PoleChudesWPF.csproj", "{A6F6566F-5DE5-44D1-90B9-030A267F86D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

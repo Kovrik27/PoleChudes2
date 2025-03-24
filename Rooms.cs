@@ -5,9 +5,8 @@
         public List<string> Nicks { get; set; } = new(4);
         internal void AddNewClient(string nickname)
         {
-            if (Nicks.Count < 3)
-                Nicks.Add(nickname);
-            else
+            Nicks.Add(nickname);
+            if (Nicks.Count == 4)
             {
                 StartNewGame(Nicks);
                 Nicks = new();
@@ -76,6 +75,7 @@
         internal string MakeTurn(Turn turn)
         {
             string result = string.Empty;
+            
             return result;
         }
     }
